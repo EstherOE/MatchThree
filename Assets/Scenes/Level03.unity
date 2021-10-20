@@ -156,13 +156,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_HorizontalAxis: Horizontal
-  m_VerticalAxis: Vertical
-  m_SubmitButton: Submit
-  m_CancelButton: Cancel
-  m_InputActionsPerSecond: 10
-  m_RepeatDelay: 0.5
-  m_ForceModuleActive: 0
 --- !u!114 &294419136
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -175,9 +168,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_FirstSelected: {fileID: 0}
-  m_sendNavigationEvents: 1
-  m_DragThreshold: 10
 --- !u!1 &455804008
 GameObject:
   m_ObjectHideFlags: 0
@@ -300,7 +290,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a62fb356db7d2834b87559058d1855a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xDim: 10
+  xDim: 9
   yDim: 10
   fillTime: 0.1
   level: {fileID: 1773144088}
@@ -461,10 +451,40 @@ PrefabInstance:
       propertyPath: level
       value: 
       objectReference: {fileID: 1773144088}
+    - target: {fileID: 224142970955174150, guid: e48363766c8c65a40931017ebcedffa0,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 224142970955174150, guid: e48363766c8c65a40931017ebcedffa0,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -32.7
+      objectReference: {fileID: 0}
     - target: {fileID: 224603741606518754, guid: e48363766c8c65a40931017ebcedffa0,
         type: 3}
       propertyPath: m_RootOrder
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 224692020860419704, guid: e48363766c8c65a40931017ebcedffa0,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 224692020860419704, guid: e48363766c8c65a40931017ebcedffa0,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -56.39
+      objectReference: {fileID: 0}
+    - target: {fileID: 224704591632641006, guid: e48363766c8c65a40931017ebcedffa0,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 224704591632641006, guid: e48363766c8c65a40931017ebcedffa0,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -34.86
       objectReference: {fileID: 0}
     - target: {fileID: 224754216104965626, guid: e48363766c8c65a40931017ebcedffa0,
         type: 3}

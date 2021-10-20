@@ -5,9 +5,9 @@ public class ClearablePiece : MonoBehaviour
 {
     public AnimationClip clearAnimation;
 
-    private bool _isBeingCleared = false;
+    private bool isBeingCleared = false;
 
-    public bool IsBeingCleared => _isBeingCleared;
+    public bool IsBeingCleared => isBeingCleared;
 
     protected GamePiece piece;
 
@@ -19,7 +19,7 @@ public class ClearablePiece : MonoBehaviour
     public virtual void Clear()
     {
         piece.GridRef.level.OnPieceCleared(piece);
-        _isBeingCleared = true;
+        isBeingCleared = true;
         StartCoroutine(ClearCoroutine());
     }
 

@@ -3,41 +3,41 @@ using UnityEngine;
 
 public class MovablePiece : MonoBehaviour
 {
-    private GamePiece _piece;
-    private IEnumerator _moveCoroutine;
+    private GamePiece piece;
+    private IEnumerator moveCoroutine;
 
     private void Awake()
     {
-        _piece = GetComponent<GamePiece>();
+        piece = GetComponent<GamePiece>();
     }
 
 
     public void Move(int newX, int newY, float time)
     {
-        if (_moveCoroutine != null)
+        if (moveCoroutine != null)
         {
-            StopCoroutine(_moveCoroutine);
+            StopCoroutine(moveCoroutine);
         }
 
-        _moveCoroutine = MoveCoroutine(newX, newY, time);
-        StartCoroutine(_moveCoroutine);
+        moveCoroutine = MoveCoroutine(newX, newY, time);
+        StartCoroutine(moveCoroutine);
     }
 
     private IEnumerator MoveCoroutine(int newX, int newY, float time)
     {
 
-        _piece.X = newX;
-        _piece.Y = newY;
+        piece.X = newX;
+        piece.Y = newY;
 
         Vector3 startPos = transform.position;
-        Vector3 endPos = _piece.GridRef.GetWorldPosition(newX, newY);
+        Vector3 endPos = piece.GridRef.GetWorldPosition(newX, newY);
 
         for (float t = 0; t <= 1 * time; t += Time.deltaTime)
         {
-            _piece.transform.position = Vector3.Lerp(startPos, endPos, t / time);
+            piece.transform.position = Vector3.Lerp(startPos, endPos, t / time);
             yield return null;
         }
 
-        _piece.transform.position = endPos;
+        piece.transform.position = endPos;
     }
 }

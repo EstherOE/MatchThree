@@ -1,17 +1,17 @@
 ﻿public class ClearColorPiece : ClearablePiece
 {
-    private ColorType _color;
+    private ColorType color;
 
     public ColorType Color
     {
-        get => _color;
-        set => _color = value;
+        get => color;
+        set => color = value;
     }
 
     public override void Clear()
     {
         base.Clear();
 
-        piece.GridRef.ClearColor(_color);
+        piece.GridRef.ClearColor(color);
     }
 }

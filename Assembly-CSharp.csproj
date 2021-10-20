@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{D4116CED-F415-FF07-EADF-3603D1F0DD22}</ProjectGuid>
+    <ProjectGuid>{57B979F6-DD2C-CF4D-2EB0-7B94D21B398B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -82,10 +82,10 @@
     <Compile Include="Assets\Scripts\MovablePiece.cs" />
     <Compile Include="Assets\Scripts\PieceType.cs" />
     <Reference Include="UnityEngine.Purchasing">
-      <HintPath>/Users/estheroe/Documents/unity/CreatingWithCode/GitHub/GitHub/CreatingWithCode/testforMatch3/Library/ScriptAssemblies/UnityEngine.Purchasing.dll</HintPath>
+      <HintPath>/Users/estheroe/Documents/unity/CreatingWithCode/ReallMatchThree/MatchThree/Library/ScriptAssemblies/UnityEngine.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>/Users/estheroe/Documents/unity/CreatingWithCode/GitHub/GitHub/CreatingWithCode/testforMatch3/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>/Users/estheroe/Documents/unity/CreatingWithCode/ReallMatchThree/MatchThree/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Hub/Editor/2018.4.36f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -292,7 +292,7 @@
       <HintPath>/Applications/Unity/Hub/Editor/2018.4.36f1/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>/Users/estheroe/Documents/unity/CreatingWithCode/GitHub/GitHub/CreatingWithCode/testforMatch3/Library/PackageCache/com.unity.analytics@3.2.3/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>/Users/estheroe/Documents/unity/CreatingWithCode/ReallMatchThree/MatchThree/Library/PackageCache/com.unity.analytics@3.2.3/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>/Applications/Unity/Hub/Editor/2018.4.36f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

@@ -4,7 +4,7 @@
     public int numMoves;
     public int targetScore;
 
-    private int _movesUsed = 0;
+    private int  movesUsed = 0;
 
     private void Start()
     {
@@ -18,11 +18,11 @@
 
     public override void OnMove()
     {
-        _movesUsed++;
+         movesUsed++;
 
-        hud.SetRemaining(numMoves - _movesUsed);
+        hud.SetRemaining(numMoves -  movesUsed);
 
-        if (numMoves - _movesUsed != 0) return;
+        if (numMoves -  movesUsed != 0) return;
         
         if (currentScore >= targetScore)
         {
